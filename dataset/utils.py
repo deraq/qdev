@@ -1,6 +1,42 @@
 import numpy as np
 import pandas as pd
+import re
+import great_expectations as ge
 import matplotlib.pyplot as plt
+
+def gen_survey_data_from_file(fname,model='conjoint'):
+    """
+    generates the survey_data from a raw data file
+    returns a dataframe
+    
+    Columns are RID, vers, C1, C2, ...
+    
+    """
+    # for conjoint
+    regex = {'conjoint':r'C[0-9]+', 'maxdiff':r'MX[0-9]+_[0-9]+'}
+    df = pd.DataFrame()
+    data = pd.read_csv(fname)
+    df['RID'] = data.iloc[:,0]
+    df['vers'] = data['vers']
+    C_ = [re.fullmatch(regex[model],s).string for s in data.columns if re.fullmatch(regex[model],s)]
+    df[C_] = data[C_]
+    return df
+
+def gen_design():
+    """
+    generates the design
+    
+    vers, task, choice, [list of factors]
+    
+    """
+    pass
+
+def gen_covariates():
+    """
+    generates the covariates
+    
+    """
+    pass
 
 
 def check_data_variance(df,tol=.5):
