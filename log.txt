@@ -1,0 +1,4 @@
+2018
+
+19 Jan
+Most of the day was spent trying to get conjoint_report from qconjoint working correctly. Made some progress. Java seems to be running but the pptx function does not work still. More details later. I also worked on the powerpoint conjoint report for Centene. I don't like powerpoint as a medium of communication but I understand that clients like it. Lots of work needs to go into the report design and automation. I like designing things but not that much. Needs new typography. Up to this point, I've spent most of my time trying to resolve computer issues. I'm hoping they get resolved soon. I need to develop goals for the next month. 
