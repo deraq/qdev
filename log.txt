@@ -15,3 +15,12 @@ work on automating several processes: 1) slideshow summary report 2)
 spreadsheet simulator 3) data preprocessing 4) conjoint and maxdiff pipelines.
 Also looking forward to building in optimization processes for current
 analyses.
+
+23 Jan
+Learned Qualtrics survey design UI for a Coursera price study. Began studying
+ways of improving a TURF analysis for 40 features where the best combo of the
+top 7 features will be needed. Parallelizing the algorithm will likely not
+solve the problem because of memory issues. An alternative solution would be
+to process the algorithm in batches. Alternatively, another model could be
+used such as a genetic algorithm to find the best combination. 40 choose 7 is
+pretty large but should be manageable.

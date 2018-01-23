@@ -2,3 +2,25 @@
 
 19 Jan
 Most of the day was spent trying to get conjoint_report from qconjoint working correctly. Made some progress. Java seems to be running but the pptx function does not work still. More details later. I also worked on the powerpoint conjoint report for Centene. I don't like powerpoint as a medium of communication but I understand that clients like it. Lots of work needs to go into the report design and automation. I like designing things but not that much. Needs new typography. Up to this point, I've spent most of my time trying to resolve computer issues. I'm hoping they get resolved soon. I need to develop goals for the next month. 
+
+22 Jan
+I started the day by creating a conjoint simulator in Excel---basically a
+table that lets you choose factor levels from a drop down menu and compares
+different packages to each other based on potential market share. Then I ran a
+maxdiff analysis for an Uber client because their data was too large to run in
+the online maxdiff analyzer. I want to automate the building of a simulator
+but I think that will be difficult in python. R shiny seems to be a more
+appropriate tool to use for any sort of interactive application. I'd like to
+work on automating several processes: 1) slideshow summary report 2)
+spreadsheet simulator 3) data preprocessing 4) conjoint and maxdiff pipelines.
+Also looking forward to building in optimization processes for current
+analyses.
+
+23 Jan
+Learned Qualtrics survey design UI for a Coursera price study. Began studying
+ways of improving a TURF analysis for 40 features where the best combo of the
+top 7 features will be needed. Parallelizing the algorithm will likely not
+solve the problem because of memory issues. An alternative solution would be
+to process the algorithm in batches. Alternatively, another model could be
+used such as a genetic algorithm to find the best combination. 40 choose 7 is
+pretty large but should be manageable.
