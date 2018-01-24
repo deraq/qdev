@@ -24,3 +24,29 @@ solve the problem because of memory issues. An alternative solution would be
 to process the algorithm in batches. Alternatively, another model could be
 used such as a genetic algorithm to find the best combination. 40 choose 7 is
 pretty large but should be manageable.
+
+24 Jan
+Learned how to access the PHP databases where survey data and analyses are
+stored. Also learned how to customize the web app for the surveys. Concrete
+example: I learned how to change the price variable from being a string or
+interval to being a randomly generated integer within an interval so the
+survey will show the randomly drawn value instead of some fixed number. I also
+learned how to generate a design by specifying a csv of attributes and levels
+for Campos-Rinovum conjoint. Used the Qualtrics web app UI to generate a
+design matrix and survey. Changed the color theme of the survey conjoint
+questions. Also, as I've been working on ways to improve TURF for OPTUM, I'm
+increasingly convinced that the standard TURF algorithm is very poor. It
+answers a poorly specified question and very easily runs into errors or
+unstable results. My thoughts on improving the analysis for OPTUM are to use a
+genetic algorithm instead or at least perform some form of segmentation on the
+data before it goes through analysis. I have yet to walk through this with
+Craig and JD to see what they think. However, the biggest problem is the
+specification of an objective function. It seems like their goal is to
+optimize something that doesn't make very much sense to me. Clarifying the
+objective would help me know which algorithm to use. In the worst case, we
+should just be able to run the standard TURF implementation in R using the
+mcmc argument to save on memory. It ran quickly on my computer for 600 rows
+and 40 variables with randomly generated data. However, there is no guarantee
+of getting the global maximum or even consistent results. Despite this, TURF
+analysis doesn't seem to guarantee much along those lines anyway even if we
+were to run the full analysis.
