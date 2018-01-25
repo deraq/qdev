@@ -50,3 +50,29 @@ and 40 variables with randomly generated data. However, there is no guarantee
 of getting the global maximum or even consistent results. Despite this, TURF
 analysis doesn't seem to guarantee much along those lines anyway even if we
 were to run the full analysis.
+
+25 Jan
+Prepared a summary report (powerpoint) for Lending Club which from what I
+understood from Craig is re-running their analysis. I also updated part of the
+html for Coursera's online survey. Talked to JD about how to approach TURF
+analysis. He proposed splitting the data into batches, running each batch
+individually, and combining the results to get the top packages. He also
+agreed that the output from TURF analysis is probably not helpful for the
+client. He agreed with my idea that it would be a good idea to consider developing an
+alternative analysis that might be more helpful to the client. I don't know if
+Craig will agree to that but I will propose it when the time gets closer to
+the actual analysis. In the meantime, I feel my time is best spent working on
+automating the summary reports using LaTeX instead of powerpoint. LaTeX is
+open source and doesn't have massive updates or require subscription licenses
+so I feel it is a good alternative to powerpoint. Of course, the client may
+disagree but I believe that they will not care if it is a pdf or a powerpoint
+as long as it is in a slideshow-style format. I'm also working on crafting the
+right language for the report that is more clear and to the point. I also need
+to develop a consistent and good data visualization style for the reporting,
+which I will probably end up doing in Python despite R's generally superior
+visualization tools. Another addition that may be possible to build into the
+pdf is the excel simulator. If the pdf is interactive, that could make the
+report a one-size-fits-all solution. We could have a standard offering which
+is a basic report and then features we could add such as explanation of the
+methods we used and the interactive simulator. All this would be automatically
+generated of course.
