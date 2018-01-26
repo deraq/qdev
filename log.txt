@@ -76,3 +76,31 @@ report a one-size-fits-all solution. We could have a standard offering which
 is a basic report and then features we could add such as explanation of the
 methods we used and the interactive simulator. All this would be automatically
 generated of course.
+
+26 Jan
+Ran a maxdiff analysis for OICremo. Along with that, I used my dataset.utils
+function to automatically load the maxdiff data from the raw survey data. I
+improved the function so it's pretty robust but not fully fool-proof. I also
+need to work on the gen_design function. Also important to note: I noticed
+that there may be something wrong with the way pandas is handling the csvs.
+After loading a dataframe, it somehow deleted the dataset or something. The
+file was blank when I tried to open it in excel. Maybe I should start using
+python scripts. I thought some more about modifying the latex report style but
+I didn't get around to selecting alternative visualizations for the output of
+the analyses. JD and I talked about writing a shell script to automatically
+pipe the raw data into my dataset cleaning functions and then pipe the output
+of those into an R script for analysis. The shell script should be a good way
+to define our entire pipeline. I met Jeff Dotson, a BYU marketing professor.
+He was unexpectedly rigorous in a quantitative way; he is well trained
+analytically and quantitatively. He mentioned some good ideas about Thompson
+Sampling for adaptive conjoint/maxdiff analysis. In addition he is working on
+trying ensemble methods for conjoint to improve conjoint prediction which I
+think is a cool idea. He also mentioned how he's trying to find a good way to
+use random forests for conjoint data but the structure of conjoint data makes
+it difficult to implement for a random forest algorithm. I want to look more
+into that but we will see what time allows during or after work. Jeff will be
+a great resource going forward and should be a great outside consultant when
+needed for advice or opinions. He also seems to have respect and sway with
+Qualtrics. He and I seem to have similar background and knowledge so I may be
+able to use him to influence opinions if my own attempts don't go over so
+well.

@@ -4,22 +4,30 @@ import re
 import great_expectations as ge
 import matplotlib.pyplot as plt
 
-def gen_survey_data_from_file(fname,model='conjoint'):
+def gen_survey_data_from_file(fname,model='conjoint',drop_row=None):
     """
     generates the survey_data from a raw data file
     returns a dataframe
     
-    Columns are RID, vers, C1, C2, ...
+    Columns for conjoint are RID, vers, C1, C2, ...
+    Columns for maxdiff are RID, vers, MD1_1, MD1_2, ...
     
     """
     # for conjoint
-    regex = {'conjoint':r'C[0-9]+', 'maxdiff':r'MX[0-9]+_[0-9]+'}
+    regex = {'conjoint':r'C[0-9]+', 'maxdiff':r'MD[0-9]+_[0-9]+'}
     df = pd.DataFrame()
-    data = pd.read_csv(fname)
+    data = pd.read_csv(fname,skiprows=drop_row)
+    # this works if it passes an expectation that column 0 is RID
     df['RID'] = data.iloc[:,0]
-    df['vers'] = data['vers']
-    C_ = [re.fullmatch(regex[model],s).string for s in data.columns if re.fullmatch(regex[model],s)]
-    df[C_] = data[C_]
+    try:
+        df['version'] = data['version']
+    except:
+        try:
+            df['version'] = data['vers']
+        except:
+            raise ValueError("vers or version not found in dataset")
+    V_ = [re.fullmatch(regex[model],s).string for s in data.columns if re.fullmatch(regex[model],s)]
+    df[V_] = data[V_]
     return df
 
 def gen_design():
