@@ -104,3 +104,25 @@ needed for advice or opinions. He also seems to have respect and sway with
 Qualtrics. He and I seem to have similar background and knowledge so I may be
 able to use him to influence opinions if my own attempts don't go over so
 well.
+
+29 Jan
+Completed building a survey for Campos-Rinovum. Also met and discussed the
+report design with JD. We talked about overall goal of the report and what is
+most useful to the client. JD is assigned to work on the data visualization
+redesigns. I am assigned to work on generating a color scheme, the fake data
+to use for analysis, and everything else for the report that is not the data
+visualizations. The goal is to first create a dummy report for conjoint
+analysis that we can send to clients to give them an idea of what they will
+receive for the conjoint analysis. Then we will work on automating that report
+so that it builds as the conjoint analysis is performed. Remember that a
+maxdiff dummy report should be built as well. Team meeting (Craig, JD).
+Discussed the metrics we need to track. In the past we tracked billing only
+pretty much. Now in addition we need to track burndown (how much did the
+project make when all is said and done?), Utilization (time spent on client
+projects as a percentage of the number of hours worked in a week, goal of
+around 70%), number of hours worked on a client project (on a per project
+basis, recorded in Trello), and CSAT surveys to clients. I am particularly
+responsible to get the last one started every Friday. We will also be meeting
+on Thursday this week to begin working on the STAN HB estimation model to make
+it better. I feel like I need to know HB model estimation like the back of my
+hand so I'll be working on that on my own time.
