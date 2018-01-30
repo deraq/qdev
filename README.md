@@ -1,7 +1,8 @@
 # Analytics Projects for Q
 ### Derek Miller
 
-Organization of Repo
+Roadmap
 
-**R**: contains R code
-**Python**: contains Python code
++ Report automation
++ Build the Data and Analysis pipeline
++ Conjoint/Maxdiff Bandits

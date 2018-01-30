@@ -126,3 +126,23 @@ responsible to get the last one started every Friday. We will also be meeting
 on Thursday this week to begin working on the STAN HB estimation model to make
 it better. I feel like I need to know HB model estimation like the back of my
 hand so I'll be working on that on my own time.
+
+30 Jan
+Worked on a survey for the Center for Emotional Marketing - Toms, basic setup.
+Also unit tested a survey that Craig built for MLB (GG price optimization?).
+Started work on a BMW report that combines the summary reports from the US and
+Germany. It's messy but I'm just getting it done. PowerPoint is a real waste
+of my time. Formatting is very difficult--especially with the types of graphs
+we have. It would be much better if the graphs were pictures. Of course,
+that's why I'm hoping for InDesign so that we save the graphs as images and
+embed them into a standard pdf slide presentation. I worked on the reporting
+for a bit today--mostly on thinking about the dummy data. I started modifying
+the Centene data to use for the dummy report. I really want to see if our
+clients care about the format of the final report. It's just not consistent
+across platforms in pptx. My goal is to get that data running in a well
+designed dummy report. I submitted an IT ticket to get access to InDesign. IT
+wrote back and asked why I needed InDesign. I hope I don't have to fight too
+hard to get it. I still feel the lack of a development process or workflow. It
+seems very ad hoc. It could be because the team is fairly new. I hope we can
+focus on future developments that help us speed things up and make our
+processes more efficient and reproducible.
