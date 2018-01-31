@@ -146,3 +146,23 @@ hard to get it. I still feel the lack of a development process or workflow. It
 seems very ad hoc. It could be because the team is fairly new. I hope we can
 focus on future developments that help us speed things up and make our
 processes more efficient and reproducible.
+
+31 Jan
+Worked on BMW joint US/Germany summary report. I spent a lot of time on the
+design that might go unappreciated but it is much more professional and higher
+quality than the previous separate versions of US or Germany. I added more
+white space and made comparisons easier by splitting the plots across
+additional slides. I de-shadowed everything and changed gradients and scales
+of a diagram in one of the last slides. The last slide with the pie charts was
+greatly improved by changing the type to white and scaling the pie charts to
+only share one variable name axis. I really dislike working in powerpoint and
+the benefits of InDesign should become clear, assuming I can show the
+advantage properly. After that, I worked on R&D with JD. We covered a
+methodology to calculate demand for individual feature levels as well as
+STAN's MCMC implementation (Hamiltonian MCMC). I'm curious to see how the
+transfer of knowledge goes at tomorrow's meeting with the software engineers.
+I also looked into sawtooth's conference paper about Bandit Maxdiff. I'm
+confident I know how to implement it and am in the process of working out the
+details. I'm also referring to another paper explaining multinomial logit and
+the extension of Thompson Sampling to that domain. More to come. When it does,
+it should be a great addition to what we already have.

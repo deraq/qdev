@@ -1,0 +1,9 @@
+30 Jan
+1.5, Center for Emotional Marketing
+1.5, BMW joint US/Germany summary report
+1.0, RnD: data for dummy summary report
+0.5, MLB survey unit test
+
+31 Jan
+4.0, BMW joint US/Germany summary report
+3.0, R&D: MaxDiff Bandits
