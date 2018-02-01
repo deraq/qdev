@@ -7,3 +7,8 @@
 31 Jan
 4.0, BMW joint US/Germany summary report
 3.0, R&D: MaxDiff Bandits
+
+1 Feb
+2.0, R&D: STAN model development meeting
+2.0, Lending Club Report
+0.5, R&D: Summary Report development

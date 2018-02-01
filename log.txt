@@ -166,3 +166,12 @@ confident I know how to implement it and am in the process of working out the
 details. I'm also referring to another paper explaining multinomial logit and
 the extension of Thompson Sampling to that domain. More to come. When it does,
 it should be a great addition to what we already have.
+
+1 Feb
+Met with Seattle office engineers to discuss STAN model development. My python
+and numerical linear algebra skills will come in handy as we try to speed the
+model up. Looks like most of the slowdown is coming in the form of poorly
+specified priors so that will require research. I also worked on the Lending
+Club report for their conjoint analysis. I made a duplicate copy via pdf
+generated from latex. I think it looks better and would be much better for
+automation. We'll see where that goes. More to come.
